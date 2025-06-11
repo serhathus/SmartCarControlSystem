@@ -31,7 +31,8 @@ A modular and extensible C++ project that simulates core functionalities of a mo
 2. Compile with g++ directly:
 
    ```bash
-   g++ -std=c++17 main.cpp -o SmartCarControlSystem
+   g++ -std=c++17 main.cpp src/*.cpp -o SmartCarControlSystem
+
    ```
 
    Or use CMake if you prefer:
